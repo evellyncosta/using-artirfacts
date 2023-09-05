@@ -35,7 +35,7 @@ func startHttpServer(wg *sync.WaitGroup) *http.Server {
 }
 
 func main() {
-	log.Printf("main: starting HTTP server")
+	log.Printf("main: starting HTTP server from standard lib")
 
 	httpServerExitDone := &sync.WaitGroup{}
 
